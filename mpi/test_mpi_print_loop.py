@@ -1,3 +1,4 @@
+import sys
 from orbit.core import orbit_mpi
 
 
@@ -8,3 +9,4 @@ _mpi_size = orbit_mpi.MPI_Comm_size(_mpi_comm)
 
 for i in range(100):
     print(f"This is node {_mpi_rank}")
+    sys.stdout.flush()
