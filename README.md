@@ -1,4 +1,3 @@
-# pyorbit-sim
-PyORBIT simulation scripts and analysis
+# PyORBIT scripts
 
-Unsure if I will define accelerator models here or import from a separate repo
+Various PyORBIT examples and simulation scripts.
